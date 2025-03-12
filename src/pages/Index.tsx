@@ -1,12 +1,15 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import RockstarServicesForm from "@/components/RockstarServicesForm";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
+    <div className="min-h-screen bg-gray-50">
+      <div className="bg-primary text-white py-4 px-4 md:px-8 shadow-md">
+        <div className="container mx-auto flex justify-between items-center">
+          <h1 className="text-xl font-bold">Rockstar Painting CRM</h1>
+        </div>
       </div>
+      <RockstarServicesForm />
     </div>
   );
 };
