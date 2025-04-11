@@ -12,7 +12,7 @@ import {
   Tooltip, 
   ResponsiveContainer 
 } from 'recharts';
-import { FileText, Users, DollarSign, Paintbrush } from "lucide-react";
+import { FileText, Users, DollarSign, Paintbrush, Plus } from "lucide-react";
 
 // Mock data for charts
 const invoiceData = [
